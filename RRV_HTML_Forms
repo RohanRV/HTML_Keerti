@@ -1,0 +1,58 @@
+<!DOCTYPE>
+<html>
+  <head>
+    <title> HTML Forms </title>
+    <link href="Image.jpg">
+  </head>
+
+  <body>
+    <div>
+      <form>
+        <p>Name:
+          <input type="text" placeholder="Naam" name="Name" value="Rohan">
+
+        <label>Mobile No.:</label>
+          <input type="number" placeholder="Chaldoorbhash" name="Mobile" value="9221022212">
+
+        <p>E-mail ID:
+          <input type="email" placeholder="EE mailva" name="Email" value="rohanrv@live.com">
+
+        <label>Password:</label>
+          <input type="password">  
+
+        <p>Gender:
+          <input type="radio" placeholder="Linga" name="Gender"> Male
+          <input type="radio" name="Gender"> Female <br>
+          <input type="radio" name="Gender"> Lesbian
+          <input type="radio" name="Gender"> Gay
+          <input type="radio" name="Gender"> Bisexual
+          <input type="radio" name="Gender"> Transgender
+          <input type="radio" name="Gender"> Queer
+          <input type="radio" name="Gender"> Intersex
+          <input type="radio" name="Gender"> Asexual
+          <input type="radio" placeholder="Linga" name="Gender"> Polyamorous
+          <input type="radio" name="Gender"> Kink <br> <br>
+
+        <label>Occupation:</label>
+            <input type="checkbox"> Student
+            <input type="checkbox" checked> Service
+            <input type="checkbox"> Self
+
+        <p>Date of Birth:
+          <input type="date" placeholder="Janamdin" name="Date" value="22/08/1994">
+
+        <p>Week of Birth:</p>
+          <input type="week">
+
+        <p>Month of Birth:</p>
+          <input type="month" value="December 2011">
+
+        <p>Weight:
+          <input type="range" min="0 kg" max="100 kg" step="5">
+
+          <p>Submit:
+          <input type="submit" placeholder="Jama">
+          </form>
+        </div>
+    </body>
+</html>    
